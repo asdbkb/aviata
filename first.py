@@ -34,5 +34,9 @@ class testAviata(unittest.TestCase):
         driver.find_element_by_xpath('//*[@id="app"]/div/main/div[1]/div[3]/div[2]/div/div[3]')
         # Проверяем наличие первых двух рейсов в списке найденных рейсов
 
+        # 1
+
+
+
     def tearDown(self):
         self.driver.close()
